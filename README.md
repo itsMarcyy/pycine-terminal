@@ -1,43 +1,58 @@
 # 🎬 Pycine
 
-**Pycine** é a evolução do meu projeto pessoal de catálogo de obras, agora com armazenamento em **Json**.
+Sistema em Python para gerenciamento de filmes e séries via terminal, com funcionalidades completas de CRUD e persistência de dados em JSON.
 
-## Sobre o projeto
+---
 
-O programa permite cadastrar e listar obras com as seguintes informações:
+## 📌 Sobre o projeto
 
-- Nome da obra
-- Categoria
-- Gênero
-- Classificação
-- Duração
-- Ano de lançamento
-- Diretor(a)
+O Pycine é uma aplicação executada no terminal que permite gerenciar um catálogo de obras, incluindo cadastro, edição, busca e remoção.
 
-## Funcionalidades
+O sistema foi estruturado de forma modular, separando responsabilidades entre interface, controle e modelo, simulando a organização de aplicações reais.
 
-- Adicionar novas obras
-- Exibir detalhes das obras
-- Listar todas as obras salvas
-- Buscar entre as obras salvas
-- Editar informações de uma obra existente
-- Remover obras do catálogo
-- Armazenamento local utilizando arquivos JSON
+---
+
+## ⚙️ Funcionalidades
+
+- Adicionar novas obras  
+- Exibir detalhes das obras  
+- Listar todas as obras salvas  
+- Buscar obras cadastradas  
+- Editar informações de uma obra existente  
+- Remover obras do catálogo  
+- Armazenamento local utilizando arquivos JSON  
+
+---
+
+## 🧱 Estrutura do projeto
+
+O projeto foi organizado em múltiplos arquivos, seguindo o princípio de separação de responsabilidades:
+
+- `main.py` → ponto de entrada da aplicação  
+- `interface.py` → responsável pela interação com o usuário (menus e exibição)  
+- `controlador.py` → contém as regras de negócio  
+- `obras.py` → definição da estrutura dos dados das obras  
+
+---
 
 ## 🧠 Aprendizados
 
-- Programação Orientada a Objetos (POO)
-- Organização de projetos em múltiplos arquivos
-- Manipulação de arquivos JSON
-- Estruturação de aplicações Python
-- Separação de responsabilidades (interface, controle e modelo)
+- Aplicação de Programação Orientada a Objetos (POO)  
+- Estruturação de projetos Python em múltiplos arquivos  
+- Manipulação de arquivos JSON para persistência de dados  
+- Organização de aplicações com separação de responsabilidades  
+- Implementação de operações CRUD
 
-  ## 🛠 Tecnologias utilizadas
+---
 
-- Python
-- Programação Orientada a Objetos
-- Manipulação de arquivos JSON
-- Git e GitHub
+## 🛠 Tecnologias utilizadas
+
+- Python  
+- Programação Orientada a Objetos (POO)  
+- Manipulação de arquivos JSON  
+- Git e GitHub  
+
+---
 
 ## ▶ Como executar
 
