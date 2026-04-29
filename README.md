@@ -59,7 +59,19 @@ O projeto foi organizado em múltiplos arquivos, seguindo o princípio de separa
 1. Clone o repositório
 2. Entre na pasta do projeto
 3. Execute: python main.py
-  
+
+---
+
+## 🚀 Evolução do projeto
+
+Este projeto evoluiu para uma versão utilizando FastAPI.
+
+<a href="https://github.com/itsMarcyy/pycine-api">
+  🔗 Pycine API
+</a>
+
+---
+
 ## 👩‍💻 Autora
 
 Desenvolvido por **Marcella Brandão**.
